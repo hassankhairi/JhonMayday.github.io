@@ -16,6 +16,7 @@ body{
 
 .topnav {
     margin-bottom: 8px;
+    position: sticky;
 }
 
 .hero-bg {
@@ -41,10 +42,6 @@ h3{
     padding: .3em;
 }
 
-.about{
-    padding: 0 5em 0 5em;
-}
-
 .content {
     background-color: rgb(4, 4, 15);
     color: white;
@@ -56,6 +53,7 @@ h3{
     background-color: rgb(4, 4, 15);
     margin: 0 6em 1em 6em ;
     position: relative;
+    padding: 0 5em 0 5em;
 }
 
 .music {
@@ -64,4 +62,16 @@ h3{
 
 .linked {
     padding: 0 3em 0 3em;
+}
+
+@media (max-width: 730px){
+    .about{
+        margin: 0;
+        padding: 0;
+    }
+
+    .about h2{
+        font-size: .9rem;
+    }
+
 }
